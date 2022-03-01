@@ -8,6 +8,10 @@ class ArticlesController < ApplicationController
 
   # GET /articles/1 or /articles/1.json
   def show
+    # Guarda el nuevo evento de la visita
+    # Se puede modifica el evento que se quiere trackear,
+    # en este caso es una visita
+    ahoy.track "Articulo visitado", {article: @article.id}
   end
 
   # GET /articles/new
