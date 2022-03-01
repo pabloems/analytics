@@ -32,3 +32,7 @@ Manejo
 Javascript folder -> graphs
 
 Lógica en main_controller para obtener visitas del día de hoy y hace 7 dias
+{Crud de Articles creado con Scaffold}
+
+![gráfico](https://user-images.githubusercontent.com/79098599/156125095-478291e2-da3e-4f26-a8c8-608a629644fd.png)
+
